@@ -1,12 +1,3 @@
-interface IDataType {
-  name: string,
-  desc?: string,
-  link: string,
-  tags: string[],
-  date: string,
-  level?: 1 | 2 | 3 | 4 | 5
-}
-
 const d2021: IDataType[] = [
   {
     name: 'Blender',
@@ -60,15 +51,15 @@ const d2021: IDataType[] = [
     name: 'milk video',
     desc: '通过视频生成声波图',
     link: 'https://milkvideo.com/',
-    tags: ['好玩的', '工具'],
+    tags: ['好玩的', '视频', '图形', '工具'],
     date: '2021-12-29',
-    level: 4
+    level: 3
   },
   {
     name: 'Alter Class',
     desc: '在线课程开发',
     link: 'https://alterclass.io/',
-    tags: ['自建服务', '工具'],
+    tags: ['自建服务', '学习', '营销', '工具'],
     date: '2021-12-29',
     level: 4
   },
@@ -116,15 +107,7 @@ const d2021: IDataType[] = [
     name: 'Marketing Is Scary for a Solo Developer',
     desc: '独立开发的程序员，如何营销自己的项目',
     link: 'https://microfounder.com/blog/marketing-is-scary',
-    tags: ['学习', '文章'],
-    date: '2021-12-29',
-    level: 4
-  },
-  {
-    name: 'Marketing Is Scary for a Solo Developer',
-    desc: '独立开发的程序员，如何营销自己的项目',
-    link: 'https://microfounder.com/blog/marketing-is-scary',
-    tags: ['学习', '文章'],
+    tags: ['学习', '运营', '文章'],
     date: '2021-12-29',
     level: 4
   },
@@ -151,7 +134,7 @@ const d2022Q1: IDataType[] = [
     name: 'STREET FIGHTER II, PAPER TRAILS',
     desc: '介绍在ROM比较昂贵的年代如何用有限的资源高效利用ROM',
     link: 'https://fabiensanglard.net/sf2_sheets/',
-    tags: ['文章', '好玩的', '游戏'],
+    tags: ['文章', '游戏'],
     date: '2022-01-02',
     level: 2
   },
@@ -258,7 +241,7 @@ const d2022Q1: IDataType[] = [
     link: 'https://safing.io/',
     tags: ['终端', '工具'],
     date: '2022-01-09',
-    level: 3
+    level: 4
   },
   {
     name: 'Paper We Love',
@@ -400,16 +383,8 @@ const d2022Q1: IDataType[] = [
     level: 3
   },
   {
-    name: 'rnote',
-    desc: '创建手绘风格笔记的软件',
-    link: 'https://github.com/flxzt/rnote',
-    tags: ['rust', '工具'],
-    date: '2022-01-31',
-    level: 3
-  },
-  {
     name: 'Github action',
-    desc: 'Github cicd服务的使用示例',
+    desc: 'Github ci/cd服务的使用示例',
     link: 'https://github.com/flxzt/rnote',
     tags: ['学习', '网站'],
     date: '2022-01-31',
@@ -441,7 +416,7 @@ const d2022Q1: IDataType[] = [
   },
   {
     name: 'Why our team cancelled our move to microservices',
-    desc: '作者描述了他的团队违和放弃微服务的迁移',
+    desc: '作者描述了他的团队为何放弃微服务的迁移',
     link: 'https://steven-lemon182.medium.com/why-our-team-cancelled-our-move-to-microservices-8fd87898d952',
     tags: ['微服务', '文章'],
     date: '2022-01-31',
@@ -491,7 +466,7 @@ const d2022Q1: IDataType[] = [
   },
   {
     name: 'datawrapper',
-    desc: '无需写代码，将数据转为图标、地图或表格',
+    desc: '无需写代码，将数据转为图表、地图或表格',
     link: 'https://www.datawrapper.de/',
     tags: ['数据可视化', '工具'],
     date: '2022-02-13',
@@ -511,7 +486,7 @@ const d2022Q1: IDataType[] = [
     link: 'https://github.com/soheilpro/mailwind',
     tags: ['css', '工具'],
     date: '2022-02-13',
-    level: 3
+    level: 1
   },
   {
     name: 'backend.sql + frontend.js =♥',
@@ -536,6 +511,71 @@ const d2022Q1: IDataType[] = [
     tags: ['学习', '网站'],
     date: '2022-02-13',
     level: 3
+  },
+
+  {
+    name: 'Mermaid',
+    desc: 'GitHub 的 Markdown 新功能，可以用其语法直接画出流程图',
+    link: 'https://github.blog/2022-02-14-include-diagrams-markdown-files-mermaid/',
+    tags: ['语言', 'github'],
+    date: '2022-02-20',
+    level: 3
+  },
+  {
+    name: 'Arduboy',
+    desc: '可以自己开发的8位迷你游戏机',
+    link: 'https://www.arduboy.com/',
+    tags: ['游戏', '好玩的', 'DIY'],
+    date: '2022-02-20',
+    level: 3
+  },
+  {
+    name: 'glitch',
+    desc: '一个可以通过web全栈构建应用的 PaaS 平台',
+    link: 'https://glitch.com/',
+    tags: ['前端', '云服务'],
+    date: '2022-02-20',
+    level: 4
+  },
+  {
+    name: 'allotropia',
+    desc: '基于 WASM 在浏览器中运行 LibreOffice',
+    link: 'https://www.allotropia.de/',
+    tags: ['前端', 'wasm'],
+    date: '2022-02-20',
+    level: 2
+  },
+  {
+    name: 'K8s 纪录片 part 1',
+    desc: 'Honeypot 制作的 K8s 纪录片 第一部分',
+    link: 'https://cult.honeypot.io/originals/kubernetes-the-documentary-part-1',
+    tags: ['服务部署', 'k8s', '纪录片'],
+    date: '2022-02-20',
+    level: 2
+  },
+  {
+    name: 'K8s 纪录片 part 2',
+    desc: 'Honeypot 制作的 K8s 纪录片 第二部分',
+    link: 'https://cult.honeypot.io/originals/kubernetes-the-documentary-part-2',
+    tags: ['服务部署', 'k8s', '纪录片'],
+    date: '2022-02-20',
+    level: 2
+  },
+  {
+    name: 'Hue.tools',
+    desc: '功能强大的在线颜色处理工具',
+    link: 'https://hue.tools/',
+    tags: ['前端', '视觉', '工具', '网站'],
+    date: '2022-02-20',
+    level: 4
+  },
+  {
+    name: 'shortwave',
+    desc: '邮件工具',
+    link: 'https://www.shortwave.com/blog/introducing-shortwave/',
+    tags: ['邮件', '提效', '工具'],
+    date: '2022-02-20',
+    level: 1
   },
 ];
 
