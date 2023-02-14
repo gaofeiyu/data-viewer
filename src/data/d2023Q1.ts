@@ -1,8 +1,42 @@
 const data: IDataType[] = [
   {
+    name: 'automerge',
+    desc: 'CRDT 协同算法库 Automerge',
+    link: 'https://automerge.org/blog/automerge-2',
+    tags: ['rust', '算法'],
+    date: '2023-02-05',
+    level: 3
+  },
+  {
+    name: 'Carbonyl',
+    desc: '终端中运行浏览器',
+    link: 'https://fathy.fr/carbonyl',
+    tags: ['终端', '好玩的'],
+    date: '2023-02-05',
+    level: 3
+  },
+  {
+    name: 'diy-pro-v37',
+    desc: 'DIY 空气质量检测仪',
+    link: 'https://www.airgradient.com/open-airgradient/instructions/diy-pro-v37/',
+    tags: ['DIY', '好玩的', '文章'],
+    date: '2023-02-05',
+    level: 3
+  },
+  {
+    name: 'Hermes',
+    desc: '开源文档管理系统',
+    link: 'https://www.hashicorp.com/blog/introducing-hermes-an-open-source-document-management-system',
+    tags: ['自建服务', '文档', '工具'],
+    date: '2023-02-05',
+    level: 3
+  },
+
+
+  {
     name: 'nango',
     desc: '开箱即用 OAuth 解决方案',
-    link: 'https://www.nango.dev/ ',
+    link: 'https://www.nango.dev/',
     tags: ['服务端'],
     date: '2023-02-12',
     level: 3
