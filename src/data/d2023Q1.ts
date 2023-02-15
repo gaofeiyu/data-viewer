@@ -1,5 +1,46 @@
 const data: IDataType[] = [
   {
+    name: 'shadcn/ui',
+    desc: '一组可复用的 UI 组件，作者提倡通过复制的方式使用组件，而不是通过引入组件的方式',
+    link: 'https://github.com/shadcn/ui',
+    tags: ['rust', '算法'],
+    date: '2023-01-29',
+    level: 4
+  },
+  {
+    name: 'webtty',
+    desc: '基于 WebRTC 分享终端会话',
+    link: 'https://github.com/maxmcd/webtty ',
+    tags: ['webRtc', '远程', '终端', '工具'],
+    date: '2023-01-29',
+    level: 3
+  },
+  {
+    name: 'bob',
+    desc: '面向微服务场景的打包工具',
+    link: 'https://bob.build/ ',
+    tags: ['持续集成', '微服务', '自建服务', '工具'],
+    date: '2023-01-29',
+    level: 3
+  },
+  {
+    name: 'Automatisch',
+    desc: '自动化工作流工具',
+    link: 'https://automatisch.io/',
+    tags: ['持续集成', '自建服务', '工具'],
+    date: '2023-01-29',
+    level: 3
+  },
+  {
+    name: 'Summer Afternoon',
+    desc: '通过webGL开发的一个内容简单的小游戏，且支持多人在线',
+    link: 'https://summer-afternoon.vlucendo.com/',
+    tags: ['webGL', '好玩的', '游戏'],
+    date: '2023-01-29',
+    level: 3
+  },
+
+  {
     name: 'automerge',
     desc: 'CRDT 协同算法库 Automerge',
     link: 'https://automerge.org/blog/automerge-2',

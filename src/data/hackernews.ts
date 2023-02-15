@@ -410,7 +410,7 @@ const d2022Q1: IDataType[] = [
     name: 'Deskreen',
     desc: '基于JS开发的屏幕共享工具',
     link: 'https://deskreen.com/lang-zh_CN',
-    tags: ['js', '工具'],
+    tags: ['js', '远程', '工具'],
     date: '2022-01-31',
     level: 3
   },
