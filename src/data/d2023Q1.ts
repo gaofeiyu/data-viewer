@@ -73,7 +73,6 @@ const data: IDataType[] = [
     level: 3
   },
 
-
   {
     name: 'nango',
     desc: '开箱即用 OAuth 解决方案',
@@ -129,6 +128,145 @@ const data: IDataType[] = [
     tags: ['react', '纪录片'],
     date: '2023-02-12',
     level: 2
+  },
+
+  {
+    name: 'alist',
+    desc: '一个开源的文件管理程序',
+    link: 'https://alist.nn.ci/',
+    tags: ['工具', '自建服务', '文件管理'],
+    date: '2023-02-19',
+    level: 3
+  },
+  {
+    name: 'helm',
+    desc: '可视化应用管理工具',
+    link: 'https://github.com/komodorio/helm-dashboard',
+    tags: ['工具', '自建服务', '应用管理'],
+    date: '2023-02-19',
+    level: 3
+  },
+  {
+    name: 'Rerun',
+    desc: '记录计算机视觉执行过程的 SDK',
+    link: 'https://www.rerun.io/',
+    tags: ['视觉', 'SDK'],
+    date: '2023-02-19',
+    level: 3
+  },
+  {
+    name: 'Sloth',
+    desc: 'Mac GUI 应用替代lsof',
+    link: 'https://github.com/sveinbjornt/Sloth',
+    tags: ['应用管理', '工具'],
+    date: '2023-02-19',
+    level: 4
+  },
+  {
+    name: 'bright',
+    desc: '代码片段展示工具',
+    link: 'https://bright.codehike.org/',
+    tags: ['美化', '工具'],
+    date: '2023-02-19',
+    level: 4
+  },
+  {
+    name: 'ChatGPT工作原理',
+    desc: '代码片段展示工具',
+    link: 'https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/',
+    tags: ['ChatGPT', 'AI', '文章'],
+    date: '2023-02-19',
+    level: 3
+  },
+
+  {
+    name: 'noya',
+    desc: '新一代设计工具',
+    link: 'https://www.noya.io/ ',
+    tags: ['设计', '工具'],
+    date: '2023-02-26',
+    level: 4
+  },
+  {
+    name: 'highlight',
+    desc: '开源 Web 应用监控方案',
+    link: 'https://www.highlight.io/',
+    tags: ['全栈', '前端', '监控'],
+    date: '2023-02-26',
+    level: 4
+  },
+  {
+    name: 'faro',
+    desc: 'Grafana 开源的 Web 前端可观测性工具',
+    link: 'https://grafana.com/oss/faro/',
+    tags: ['监控'],
+    date: '2023-02-26',
+    level: 3
+  },
+  {
+    name: 'laudspeaker',
+    desc: '开源的客户旅程自动化平台',
+    link: 'https://laudspeaker.com/',
+    tags: ['平台', '工具'],
+    date: '2023-02-26',
+    level: 3
+  },
+  {
+    name: 'Infinite Storage Glitch',
+    desc: '将视频网站变为免费网盘',
+    link: 'https://github.com/DvorakDwarf/Infinite-Storage-Glitch',
+    tags: ['编解码', '好玩的'],
+    date: '2023-02-26',
+    level: 2
+  },
+  {
+    name: 'aicommits',
+    desc: '自动生成 commit message 工具',
+    link: 'https://github.com/Nutlope/aicommits',
+    tags: ['AI', '好玩的'],
+    date: '2023-02-26',
+    level: 2
+  },
+
+  {
+    name: 'Service weaver 介绍',
+    desc: 'Google 发布新编程框架 Service weaver 介绍',
+    link: 'https://opensource.googleblog.com/2023/03/introducing-service-weaver-framework-for-writing-distributed-applications.html ',
+    tags: ['自建服务', '微服务', 'Google', '文章'],
+    date: '2023-03-05',
+    level: 2
+  },
+  {
+    name: 'remult',
+    desc: '快速 CRUD 框架',
+    link: 'https://github.com/remult/remult',
+    tags: ['框架', '自建服务', '全栈'],
+    date: '2023-03-05',
+    level: 4
+  },
+  {
+    name: 'ChatGPT API',
+    desc: 'ChatGPT 官方 API',
+    link: 'https://openai.com/blog/introducing-chatgpt-and-whisper-apis',
+    tags: ['ChatGPT', 'API', 'AI'],
+    date: '2023-03-05',
+    level: 5
+  },
+  {
+    name: 'Mathesar',
+    desc: '开源 Postgres 数据库 GUI 管理工具',
+    link: 'https://github.com/centerofci/mathesar',
+    tags: ['API', 'AI'],
+    date: '2023-03-05',
+    level: 3
+  },
+  {
+    name: 'Unfolder',
+    desc: '将3D 模型生成折纸零件图纸的工具',
+    link: 'https://www.unfolder.app/',
+    tags: ['模型', '好玩的'],
+    date: '2023-03-05',
+    level: 3
   },
 ];
 
