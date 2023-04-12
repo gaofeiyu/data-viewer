@@ -3,7 +3,7 @@ const d2021: IDataType[] = [
     name: 'Blender',
     desc: '图像渲染工具',
     link: 'https://www.blender.org/',
-    tags: ['图像', '3D', '软件'],
+    tags: ['图形', '3D', 'app'],
     date: '2021-12-29',
     level: 1
   },
@@ -59,7 +59,7 @@ const d2021: IDataType[] = [
     name: 'Alter Class',
     desc: '在线课程开发',
     link: 'https://alterclass.io/',
-    tags: ['自建服务', '学习', '营销', '工具'],
+    tags: ['自建服务', '学习', '运营', '工具'],
     date: '2021-12-29',
     level: 4
   },
@@ -75,7 +75,7 @@ const d2021: IDataType[] = [
     name: 'Roughjs',
     desc: '手绘风格的绘图库',
     link: 'https://roughjs.com/',
-    tags: ['前端', 'js', '图形'],
+    tags: ['前端', '图形'],
     date: '2021-12-29',
     level: 3
   },
@@ -83,7 +83,7 @@ const d2021: IDataType[] = [
     name: 'messwithdns',
     desc: '一个学习DNS原理的网站',
     link: 'https://messwithdns.net/',
-    tags: ['服务部署', '学习', '网站'],
+    tags: ['自建服务', '学习', '网站'],
     date: '2021-12-29',
     level: 3
   },
@@ -215,7 +215,7 @@ const d2022Q1: IDataType[] = [
     name: 'Why might you run your own DNS server?',
     desc: '讲述为什么要搭建自己的DNS服务器',
     link: 'https://jvns.ca/blog/2022/01/05/why-might-you-run-your-own-dns-server-/',
-    tags: ['服务部署', '文章'],
+    tags: ['自建服务', '文章'],
     date: '2022-01-09',
     level: 3
   },
@@ -223,7 +223,7 @@ const d2022Q1: IDataType[] = [
     name: 'Zotero',
     desc: '文献管理工具',
     link: 'https://github.com/zotero/zotero',
-    tags: ['学习', '文献', '工具'],
+    tags: ['学习', '工具'],
     date: '2022-01-09',
     level: 3
   },
@@ -247,7 +247,7 @@ const d2022Q1: IDataType[] = [
     name: 'Paper We Love',
     desc: '计算机论文资源和研读',
     link: 'https://paperswelove.org/',
-    tags: ['计算机科学', '文献', '网站'],
+    tags: ['计算机科学', '网站'],
     date: '2022-01-09',
     level: 2
   },
@@ -427,7 +427,7 @@ const d2022Q1: IDataType[] = [
     name: 'Hibiki HTML',
     desc: '不必使用JS的动态前端应用框架',
     link: 'https://playground.hibikihtml.com/tutorial/',
-    tags: ['CSS', '框架'],
+    tags: ['css', '框架'],
     date: '2022-02-06',
     level: 3
   },
@@ -443,7 +443,7 @@ const d2022Q1: IDataType[] = [
     name: 'Malloy',
     desc: '一个用于描述数据关系的实验性语言',
     link: 'https://github.com/malloydata/malloy',
-    tags: ['语言', '数据库'],
+    tags: ['计算机语言', '数据库'],
     date: '2022-02-06',
     level: 2
   },
@@ -517,7 +517,7 @@ const d2022Q1: IDataType[] = [
     name: 'Mermaid',
     desc: 'GitHub 的 Markdown 新功能，可以用其语法直接画出流程图',
     link: 'https://github.blog/2022-02-14-include-diagrams-markdown-files-mermaid/',
-    tags: ['语言', 'github'],
+    tags: ['计算机语言', 'github'],
     date: '2022-02-20',
     level: 3
   },
@@ -549,7 +549,7 @@ const d2022Q1: IDataType[] = [
     name: 'K8s 纪录片 part 1',
     desc: 'Honeypot 制作的 K8s 纪录片 第一部分',
     link: 'https://cult.honeypot.io/originals/kubernetes-the-documentary-part-1',
-    tags: ['服务部署', 'k8s', '纪录片'],
+    tags: ['自建服务', 'k8s', '纪录片'],
     date: '2022-02-20',
     level: 2
   },
@@ -557,7 +557,7 @@ const d2022Q1: IDataType[] = [
     name: 'K8s 纪录片 part 2',
     desc: 'Honeypot 制作的 K8s 纪录片 第二部分',
     link: 'https://cult.honeypot.io/originals/kubernetes-the-documentary-part-2',
-    tags: ['服务部署', 'k8s', '纪录片'],
+    tags: ['自建服务', 'k8s', '纪录片'],
     date: '2022-02-20',
     level: 2
   },

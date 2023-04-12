@@ -268,6 +268,54 @@ const data: IDataType[] = [
     date: '2023-03-05',
     level: 3
   },
+  {
+    name: 'PlayWright',
+    desc: 'Playwright 为 现代 web 应用提供了可靠的端到端的测试能力',
+    link: 'https://github.com/microsoft/playwright/releases/tag/v1.32.0',
+    tags: ['e2e', '测试'],
+    date: '2023-03-26',
+    level: 4
+  },
+  {
+    name: 'typst',
+    desc: '功能强大使用便捷的排版系统',
+    link: 'https://github.com/typst/typst',
+    tags: ['文档', '编辑器'],
+    date: '2023-03-26',
+    level: 3
+  },
+  {
+    name: 'Transformer',
+    desc: '在浏览器中运行 Transformer 模型',
+    link: 'https://xenova.github.io/transformers.js/',
+    tags: ['AI'],
+    date: '2023-03-19',
+    level: 3
+  },
+  {
+    name: 'Scale',
+    desc: 'Wasm 跨语言运行时',
+    link: 'https://scale.sh/',
+    tags: ['wasm', 'rust'],
+    date: '2023-03-19',
+    level: 4
+  },
+  {
+    name: 'PgTyped',
+    desc: '从 SQL 语句中推断 Typescript 类型',
+    link: 'https://github.com/adelsz/pgtyped',
+    tags: ['typescript', '数据库'],
+    date: '2023-03-12',
+    level: 4
+  },
+  {
+    name: 'OpenDAL',
+    desc: '开源通用数据接入层',
+    link: 'https://github.com/datafuselabs/opendal',
+    tags: ['全栈', '数据库'],
+    date: '2023-03-12',
+    level: 4
+  },
 ];
 
 export default data;
